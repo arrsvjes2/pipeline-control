@@ -1,6 +1,6 @@
 node('nodejs') {
 	stage('Checkout') {
-		git branch: 'main', url: 'https://github.com/arrsvjes2/pipelines-control'
+		git branch: 'main', url: 'https://github.com/arrsvjes2/pipeline-control'
 
 	}
 
